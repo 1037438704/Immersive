@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="这是一篇沉浸式学习的文章"
+            android:textColor="@color/colorWhile"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorYellow"
+            android:text="\t\t\t其实说到沉浸式状态栏这个名字我也是感到很无奈，真不知道这种叫法是谁先发起的。因为Android官方从来没有给出过沉浸式状态栏这样的命名，只有沉浸式模式（Immersive Mode）这种说法。而有些人在没有完全了解清楚沉浸模式到底是什么东西的情况下，就张冠李戴地认为一些系统提供的状态栏操作就是沉浸式的，并且还起了一个沉浸式状态栏的名字。
+比如之前就有一个QQ群友问过我，像饿了么这样的沉浸式状态栏效果该如何实现？"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon_mimap_1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorYellow"
+            android:text="\t\t\t这个效果其实就是让背景图片可以利用系统状态栏的空间，从而能够让背景图和状态栏融为一体。
+本篇文章当中我会教大家如何实现这样的效果，但这个真的不叫沉浸式状态栏。因此，这算是一篇技术+普及的文章吧，讲技术的同时也纠正一下大家之前错误的叫法。
+"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="什么是沉浸式？"
+            android:textColor="@color/colorBlack"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorYellow"
+            android:text="\t\t\t先来分析一下叫错的原因吧，之所以很多人会叫错，是因为根本就不了解沉浸式是什么意思，然后就人云亦云跟着叫了。那么沉浸式到底是什么意思呢？
+根据百度百科上的定义，沉浸式就是要给用户提供完全沉浸的体验，使用户有一种置身于虚拟世界之中的感觉。
+比如说现在大热的VR就是主打的沉浸式体验。
+那么对应到Android操作系统上面，怎样才算是沉浸式体验呢？这个可能在大多数情况下都是用不到的，不过在玩游戏或者看电影的时候就非常重要了。因为游戏或者影视类的应用都希望能让用户完全沉浸在其中，享受它们提供的娱乐内容，但如果这个时候在屏幕的上方还显示一个系统状态栏的话，可能就会让用户分分钟产生跳戏的感觉。
+那么我们来看一下比较好的游戏都是怎么实现的，比如说海岛奇兵："
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/icon_mamap_2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorYellow"
+            android:text="\t\t\t海岛奇兵的这种模式就是典型的沉浸式模式，它的整个屏幕中显示都是游戏的内容，没有状态栏也没有导航栏，用户玩游戏的时候就可以完全沉浸在游戏当中，而不会被一些系统的界面元素所打扰。
+然后我们再来看一下爱奇艺的实现："
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>
